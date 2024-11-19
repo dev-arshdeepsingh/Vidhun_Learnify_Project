@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(
+      to right,
+      #6a11cb,
+      #2575fc
+    ); /* Gradient background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Center text */
+  }
+  
+  h1 {
+    color: #6a11cb; /* Title color */
+  }
+  
+  .converter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Space below the converter */
+  }
+  
+  input[type="number"] {
+    width: 100px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #2575fc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  select {
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #2575fc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #6a11cb; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  button:hover {
+    background-color: #2575fc; /* Change button color on hover */
+  }
+  
+  h2 {
+    color: #333; /* Result text color */
+  }
+  
